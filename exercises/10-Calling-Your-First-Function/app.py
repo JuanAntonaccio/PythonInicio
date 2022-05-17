@@ -4,4 +4,6 @@ def is_odd(my_number):
 
 def my_main_code():
     # your code here
-    print(is_odd(45345))
+    dato=is_odd(45345)
+    otro=False
+    print(otro)
