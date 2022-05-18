@@ -5,5 +5,9 @@ def is_odd(my_number):
 def my_main_code():
     # your code here
     dato=is_odd(45345)
-    otro=False
-    print(otro)
+    if dato:
+        print("El numero es impar")
+    else:
+        print("El numero es par")
+
+my_main_code()        
