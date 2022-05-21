@@ -9,7 +9,12 @@ def spin_chamber():
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
 	# YOUR CODE HERE
-	return None
+	tiro=spin_chamber()
+	if tiro==bullet_position:
+		texto="You are dead!"
+	else:
+		texto="Keep playing!"	
+	return texto
 
 
 
